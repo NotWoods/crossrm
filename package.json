@@ -7,5 +7,18 @@
   },
   "engines": {
     "node": ">=18.3.0"
-  }
+  },
+  "repository": "NotWoods/crossrm",
+  "license": "MIT",
+  "keywords": [
+    "rm",
+    "rm -rf",
+    "rm -fr",
+    "remove",
+    "directory",
+    "cli",
+    "rmdir",
+    "recursive",
+    "rimraf"
+  ]
 }
