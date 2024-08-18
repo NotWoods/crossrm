@@ -1,0 +1,11 @@
+{
+  "name": "crossrm",
+  "type": "module",
+  "version": "1.0.0",
+  "bin": {
+    "crossrm": "bin.js"
+  },
+  "engines": {
+    "node": ">=18.3.0"
+  }
+}
