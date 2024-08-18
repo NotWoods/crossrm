@@ -3,14 +3,11 @@
 import { parseArgs } from "node:util";
 import { rm } from "node:fs/promises";
 
-const options =
-  /** @satisfies {import('node:util').ParseArgsConfig['options']} */ ({
+const args = parseArgs({
+  options: {
     force: { type: "boolean", short: "f", default: true },
     recursive: { type: "boolean", short: "r", default: true },
-  });
-
-const args = parseArgs({
-  options,
+  },
   allowPositionals: true,
   allowNegative: true,
 });
